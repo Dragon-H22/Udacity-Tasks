@@ -66,11 +66,7 @@ fillData();
  * Begin Main Functions
  * 
 */
-function scroll(id){
-    // var ii = document.getElementById("section3");
-    // window.scrollTo(ii.offsetLeft,ii.offsetTop);
-    console.log("5555555555");
-
+function scrollToView(id){
     document.getElementById(id).scrollIntoView();
 }
 // build the nav

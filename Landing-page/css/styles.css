@@ -212,12 +212,45 @@ section.your-active-class .landing__container::after {
 @keyframes rotate {
 	from {
 		transform: rotate(0deg)
-		           translate(-1em)
-		           rotate(0deg);
+		translate(-1em)
+		rotate(0deg);
 	}
 	to {
 		transform: rotate(360deg)
-		           translate(-1em) 
-		           rotate(-360deg);
+		translate(-1em) 
+		rotate(-360deg);
 	}
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    margin: 10px !important;
+    color: #000;
+}
+
+nav ul li {
+    float: right;
+    padding: 10px 5px;
+    cursor: pointer;
+}
+nav ul li:hover{
+    background-color: #0a133f;
+    color: #fff;
+}
+
+.active {
+    background-color: #fff;
+    color: #000;
+}
+.clr {
+    clear: both;
+}
+
+*{
+    transition: all 0.3s;
+}
+
+main{
+    margin-top: 0;
 }
